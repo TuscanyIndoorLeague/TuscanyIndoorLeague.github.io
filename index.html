@@ -35,10 +35,12 @@
             gap: 30px;
         }
 
-        /* Rendere le immagini responsive */
+        /* Rendere le immagini responsive - non si allargano oltre la loro dimensione naturale */
         .banner img {
+            max-width: 100%; /* Impedisce che l'immagine superi la larghezza del contenitore */
             height: auto;
-            max-width: 100%;
+            width: auto;
+            max-height: 120px; /* Imposta la dimensione massima dell'altezza */
         }
 
         .banner-title {
@@ -136,6 +138,7 @@
             <img src="/img/Logo_CNC.jpg" alt="League Logo CNC">
         </div>
     </a>
+
 
     <center>
         <font face="verdana">
