@@ -6,217 +6,156 @@
 <!-- HTML TOP -->
 
 <!DOCTYPE html>
-
 <html lang="it">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Tuscany Indoor League 2025</title>
+    <title>Tuscany Indoor League 2025 - Standings & Leaders</title>
 
     <!-- Google Fonts -->
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
-
         body {
-
             background-color: #ffffff;
-
             color: #333333;
-
             font-family: 'Roboto', sans-serif;
-
             margin: 0;
-
             padding: 0;
-
             font-size: 18px;
-
         }
 
-
-
-        /* Nascondere tutti gli h1 e hr */
-
+        /* Nascondere tutti gli h1 e hr, escluso il banner */
         h1, hr {
-
             display: none;
-
         }
-
-
 
         /* Stili per il banner */
-
         .banner {
-
             display: flex;
-
             align-items: center;
-
             justify-content: center;
-
             background-color: #00008d;
-
             padding: 30px;
-
             width: 100%;
-
             gap: 30px;
-
         }
-
-
 
         .banner img {
-
             height: 120px;
-
         }
-
-
 
         .banner-title {
-
             color: white;
-
             margin: 0;
-
             text-align: center;
-
-            font-size: 36px; /* Simile a un h1 */
-
-            font-weight: bold; /* Aggiunto per un effetto simile a h1 */
-
+            font-size: 36px;
+            font-weight: bold;
         }
 
-
-
-        /* Contenuto generico della pagina */
-
-        .content {
-
-            text-align: center;
-
-            margin: 30px;
-
-        }
-
-
-
+        /* Stile per i link principali */
         h3 a {
-
             text-decoration: none;
-
             color: #00008d;
-
             padding: 12px 25px;
-
             border: 2px solid #00008d;
-
             border-radius: 8px;
-
             display: inline-block;
-
             margin: 8px 0;
-
             font-size: 20px;
-
         }
-
-
 
         h3 a:hover {
-
             background-color: #f0f0f0;
-
             color: #00008d;
-
         }
 
-
-
-        a {
-
+        /* Stile per i link secondari */
+        a.secondary {
             text-decoration: none;
-
             color: #00008d;
-
-            font-size: 20px;
-
+            font-size: 14px;
         }
 
-
-
-        a:hover {
-
+        a.secondary:hover {
             text-decoration: underline;
-
         }
 
-
-
-        /* Stili footer */
-
-        footer {
-
-            background-color: #f1f1f1;
-
-            color: #333333;
-
-            padding: 20px;
-
-            text-align: center;
-
-            font-size: 16px;
-
-            border-top: 2px solid #00008d;
-
-            margin-top: 50px;
-
+        /* Stili generali per la pagina */
+        a {
+            text-decoration: none;
+            color: #00008d;
         }
-
-
 
         li {
-
             list-style-type: none;
-
             padding: 0;
-
             margin: 0;
-
         }
 
-    </style>
+        /* Stili footer */
+        footer {
+            background-color: #f1f1f1;
+            color: #333333;
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            border-top: 2px solid #00008d;
+            margin-top: 50px;
+        }
 
+        /* Media queries per rendere il sito responsive */
+        @media (max-width: 768px) {
+            .banner {
+                flex-direction: column;
+                padding: 15px;
+            }
+
+            .banner-title {
+                font-size: 24px;
+            }
+
+            h3 a {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+
+            a.secondary {
+                font-size: 12px;
+            }
+
+            footer {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-
     <!-- Aggiungi il link alla home attorno al banner -->
-
     <a href="/index.html">
-
         <div class="banner">
-
             <img src="/img/Logo_Tuscany_Indoor_League.png" alt="League Logo">
-
             <div class="banner-title">Tuscany Indoor League 2025</div>
-
             <img src="/img/Logo_CNC.jpg" alt="League Logo CNC">
-
         </div>
-
     </a>
 
+    <center>
+        <h1>Tuscany Indoor League 2025</h1>
+        <h3><font face="verdana">Standings & Leaders</font></h3>
+    </center>
 
-
+    <center>
+        <ul>
+            <li><a href="#form.std">Standings</a></li>
+            <li><a href="#form.lgt">Leaders Summary Page</a></li>
+            <li><a href="#leag.res">Game Results</a></li>
+        </ul>
+    </center>
+    
+    <hr>
 <!-- END OF HTML TOP -->
 <center>
 <h1>Tuscany Indoor League 2025</h1>
@@ -1154,7 +1093,7 @@
 <td align=right><font face=verdana size=1 color="#000000">  &nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Jan 19, 2025&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Palestra "Balducci" &nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000"><a href="TIL02.HTM">DRK Capannori 8, Siena Monteriggioni 0</a>&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000"><a href="TIL02.HTM" class="secondary">DRK Capannori 8, Siena Monteriggioni 0</a>&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">W-PROSPER K., L-BOUMAROUANE&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   100&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1:07&nbsp;</td>
