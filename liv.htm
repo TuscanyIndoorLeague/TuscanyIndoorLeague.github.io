@@ -3,221 +3,143 @@
 <body style="color:#00008d">
 <font face=verdana>
 <!File source:C:\TASBS\top.htm>
-<!-- HTML TOP -->
-
 <!DOCTYPE html>
-
 <html lang="it">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Tuscany Indoor League 2025</title>
+    <title>Tuscany Indoor League 2025 - Standings & Leaders</title>
 
     <!-- Google Fonts -->
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
-
         body {
-
             background-color: #ffffff;
-
             color: #333333;
-
             font-family: 'Roboto', sans-serif;
-
             margin: 0;
-
             padding: 0;
-
             font-size: 18px;
-
         }
 
-
-
-        /* Nascondere tutti gli h1 e hr */
-
+        /* Nascondere tutti gli h1 e hr, escluso il banner */
         h1, hr {
-
             display: none;
-
         }
-
-
 
         /* Stili per il banner */
-
         .banner {
-
             display: flex;
-
             align-items: center;
-
             justify-content: center;
-
             background-color: #00008d;
-
             padding: 30px;
-
             width: 100%;
-
             gap: 30px;
-
         }
 
-
-
+        /* Ripristino del comportamento originale per le immagini */
         .banner img {
-
-            height: 120px;
-
+            height: 120px; /* Ripristinato l'altezza fissa */
         }
-
-
 
         .banner-title {
-
             color: white;
-
             margin: 0;
-
             text-align: center;
-
-            font-size: 36px; /* Simile a un h1 */
-
-            font-weight: bold; /* Aggiunto per un effetto simile a h1 */
-
+            font-size: 36px;
+            font-weight: bold;
         }
 
-
-
-        /* Contenuto generico della pagina */
-
-        .content {
-
-            text-align: center;
-
-            margin: 30px;
-
-        }
-
-
-
+        /* Stile per i link principali */
         h3 a {
-
             text-decoration: none;
-
             color: #00008d;
-
             padding: 12px 25px;
-
             border: 2px solid #00008d;
-
             border-radius: 8px;
-
             display: inline-block;
-
             margin: 8px 0;
-
             font-size: 20px;
-
         }
-
-
 
         h3 a:hover {
-
             background-color: #f0f0f0;
-
             color: #00008d;
-
         }
 
-
-
-        a {
-
+        /* Stile per i link secondari */
+        a.secondary {
             text-decoration: none;
-
             color: #00008d;
-
-            font-size: 20px;
-
+            font-size: 14px;
         }
 
-
-
-        a:hover {
-
+        a.secondary:hover {
             text-decoration: underline;
-
         }
 
-
-
-        /* Stili footer */
-
-        footer {
-
-            background-color: #f1f1f1;
-
-            color: #333333;
-
-            padding: 20px;
-
-            text-align: center;
-
-            font-size: 16px;
-
-            border-top: 2px solid #00008d;
-
-            margin-top: 50px;
-
+        /* Stili generali per la pagina */
+        a {
+            text-decoration: none;
+            color: #00008d;
         }
-
-
 
         li {
-
             list-style-type: none;
-
             padding: 0;
-
             margin: 0;
-
         }
 
-    </style>
+        /* Stili footer */
+        footer {
+            background-color: #f1f1f1;
+            color: #333333;
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            border-top: 2px solid #00008d;
+            margin-top: 50px;
+        }
 
+        /* Media queries per rendere il sito responsive */
+        @media (max-width: 768px) {
+            .banner {
+                flex-direction: column;
+                padding: 15px;
+            }
+
+            .banner-title {
+                font-size: 24px;
+            }
+
+            h3 a {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+
+            a.secondary {
+                font-size: 12px;
+            }
+
+            footer {
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-
     <!-- Aggiungi il link alla home attorno al banner -->
-
     <a href="/index.html">
-
         <div class="banner">
-
             <img src="/img/Logo_Tuscany_Indoor_League.png" alt="League Logo">
-
             <div class="banner-title">Tuscany Indoor League 2025</div>
-
             <img src="/img/Logo_CNC.jpg" alt="League Logo CNC">
-
         </div>
-
     </a>
-
-
-
-<!-- END OF HTML TOP -->
 <center>
 <h1>Tuscany Indoor League 2025</h1>
 <h3><font face=verdana>Livorno B.C</font></h3>
@@ -276,7 +198,7 @@
 <td align=left><font face=verdana size=1 color="#000000">  &nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">CHIANTELLA&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000"> &nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">5-5&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000"><a href="/til04.htm" class="secondary">5-5</a>&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000"> &nbsp;T&nbsp;&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">5-1-1&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">/&nbsp;</td>
@@ -287,6 +209,24 @@
 <td align=left><font face=verdana size=1 color="#000000">None&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   100&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">1:13&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">  &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Jan 19, 2025&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">at&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Padule Blu&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">W&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000"><a href="/til08.htm" class="secondary">7-3</a>&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000"> &nbsp; &nbsp;&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">7-3-1&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">/&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">3-2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4 &nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">1-0-1&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">1-0-1  &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">LA ROCCA (W 1-0)&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   100&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">1:12&nbsp;</td>
 </tr>
 </table>
 
@@ -315,7 +255,7 @@
 
 <br>
 
- record: 0-0
+ record: 1-0
 
 <table border=0 cellspacing=0 cellpadding=2>
 <tr bgcolor="#00008b">
@@ -346,62 +286,36 @@
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA     &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .250&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .667&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">13&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI       &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
@@ -409,37 +323,89 @@
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .333&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .400&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR   &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI     &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .400&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI       &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .667&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .600&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">3-3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR   &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .600&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
@@ -451,22 +417,48 @@
 <tr><td>----------</td></tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .857&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">Giorgio STIAVETTI   &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
@@ -478,24 +470,24 @@
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Diego DANTI         &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .250&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
@@ -527,89 +519,63 @@
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
 </tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI       &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
-</tr>
 
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Totals              &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .077&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">13&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .167&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">24&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .154&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">11&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .400&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">4-4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .250&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">17&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .474&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">11-11&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">26&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .941&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .933&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Opponents           &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .071&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">28&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">8&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .143&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">17&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">11&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">23&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .364&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .435&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">3-3&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .857&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">21&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .846&nbsp;</td>
 </tr>
 </table>
 <p><table width=555><tr><td><font face=verdana size=1>
 
-LOB - Team (3), Opp (3). 
+LOB - Team (5), Opp (12). 
 </font></td></tr></table>
 
 <p><hr><font face=verdana size=3><b>(All games Sorted by Earned run avg)<br>
@@ -643,50 +609,50 @@ LOB - Team (3), Opp (3).
 <td align=right  bgcolor="#00008b"><font face=verdana size=1 color="#ffffff"><b>sha&nbsp;</b></td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 0.00&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI     &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.25&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">0/0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">10&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.50&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA     &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 3.75&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">1-0&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">0/0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">6&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">8&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">11&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .143&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">6&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
@@ -721,24 +687,24 @@ LOB - Team (3), Opp (3).
 
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Totals              &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 4.29&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 4.04&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">1-0&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">0/0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4.2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">8.2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">8&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">11&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">17&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">23&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">28&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .071&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
@@ -746,24 +712,24 @@ LOB - Team (3), Opp (3).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Opponents           &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 5.00&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">0-0&nbsp;</td>
-<td align=center><font face=verdana size=1 color="#000000">1-1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 7.14&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">0-1&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">2-2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=center><font face=verdana size=1 color="#000000">0/0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">7.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">11&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">10&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">17&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">13&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .077&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">24&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .167&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">10&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
@@ -793,8 +759,8 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">8&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">13&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
@@ -834,6 +800,20 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI     &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .857&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI       &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
@@ -848,35 +828,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI       &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Giorgio STIAVETTI   &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
@@ -903,14 +855,42 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 </tr>
+<tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI       &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI     &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+</tr>
 
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Totals              &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">17&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">30&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">26&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .941&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .933&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
@@ -920,13 +900,13 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Opponents           &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .857&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">26&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">21&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .846&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">11&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
@@ -964,6 +944,44 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .250&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+</table>
+</td>
+<p>
+<td>
+<table border=0 cellspacing=0 cellpadding=2>
+<tr bgcolor="#00008b">
+<td align=left width=175 colspan=4 bgcolor="#00008b"><font face=verdana size=1 color="#ffffff"><b>Slugging pct&nbsp;</b></td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
@@ -986,42 +1004,10 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
-</tr>
-</table>
-</td>
-<p>
-<td>
-<table border=0 cellspacing=0 cellpadding=2>
-<tr bgcolor="#00008b">
-<td align=left width=175 colspan=4 bgcolor="#00008b"><font face=verdana size=1 color="#ffffff"><b>Slugging pct&nbsp;</b></td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
 </tr>
 </table>
 </td>
@@ -1033,30 +1019,33 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .667&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .600&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .667&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .600&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">3.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .333&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">4.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .400&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .400&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 </table>
 </td>
@@ -1070,29 +1059,32 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">5.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">3 tied at ...&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 </table>
 </td>
@@ -1104,15 +1096,21 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Giorgio STIAVETTI    &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -1128,12 +1126,23 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#00008b">
 <td align=left width=175 colspan=4 bgcolor="#00008b"><font face=verdana size=1 color="#ffffff"><b>Runs batted in&nbsp;</b></td>
 </tr>
-<td align=left><font face=verdana size=1 color="#000000">None&nbsp;</td>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -1157,7 +1166,10 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Giorgio STIAVETTI    &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -1226,10 +1238,16 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Giorgio STIAVETTI    &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -1248,31 +1266,31 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">3.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 </table>
@@ -1349,21 +1367,27 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">4 tied at ...&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -1401,6 +1425,12 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
@@ -1411,10 +1441,10 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">4 tied at ...&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -1427,15 +1457,29 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#00008b">
 <td align=left width=175 colspan=4 bgcolor="#00008b"><font face=verdana size=1 color="#ffffff"><b>Stolen base pct&nbsp;</b></td>
 </tr>
-<td align=left><font face=verdana size=1 color="#000000">None&nbsp;</td>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -1456,14 +1500,20 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Diego DANTI          &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Diego DANTI          &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">4.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
@@ -1471,12 +1521,6 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">5.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">2 tied at ...&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 </table>
@@ -1510,32 +1554,32 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   5&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   5&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   5&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">5.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">4 tied at ...&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   5&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 </table>
@@ -1549,32 +1593,32 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Diego DANTI          &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   4&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">3.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Diego DANTI          &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Francesco PATTI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 </table>
@@ -1587,8 +1631,8 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">8 tied at ...&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">7 tied at ...&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -1613,8 +1657,8 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">8 tied at ...&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">7 tied at ...&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -1665,14 +1709,14 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 0.00&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.25&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.50&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 3.75&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -1699,9 +1743,9 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .143&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -1723,13 +1767,13 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1.000&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> .000&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
@@ -1751,7 +1795,12 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#00008b">
 <td align=left width=175 colspan=4 bgcolor="#00008b"><font face=verdana size=1 color="#ffffff"><b>Wins&nbsp;</b></td>
 </tr>
-<td align=left><font face=verdana size=1 color="#000000">None&nbsp;</td>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
 </tr>
@@ -1793,7 +1842,12 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#00008b">
 <td align=left width=175 colspan=4 bgcolor="#00008b"><font face=verdana size=1 color="#ffffff"><b>Saves&nbsp;</b></td>
 </tr>
-<td align=left><font face=verdana size=1 color="#000000">None&nbsp;</td>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
 </tr>
@@ -1818,13 +1872,13 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  2.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  4.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  2.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  4.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -1847,13 +1901,13 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  11&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  10&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -1878,18 +1932,18 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">3.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
@@ -1912,7 +1966,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -1938,7 +1992,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -1963,13 +2017,13 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
@@ -1993,18 +2047,21 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   6&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   5&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -2113,7 +2170,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -2186,9 +2243,9 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -2211,14 +2268,14 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   4&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -2240,14 +2297,14 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   0&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -2270,13 +2327,13 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   4&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   8&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -2304,9 +2361,9 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
@@ -2409,12 +2466,15 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">4.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .857&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">5.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .500&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 </table>
 </td>
@@ -2427,29 +2487,32 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   8&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  14&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   7&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">3.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   6&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">3.&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">4.&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">5.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
 </tr>
 </table>
 </td>
@@ -2462,23 +2525,26 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA      &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">   7&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  13&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">2.&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Zeno CORBINO         &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   6&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=right><font face=verdana size=1 color="#000000">3.&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR    &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
-</tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -2523,12 +2589,15 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=1 color="#000000">1.&nbsp;</td>
-<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI      &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI        &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">   1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">&nbsp;&nbsp;&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
@@ -2727,20 +2796,20 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=2 color="#000000">Livorno B.C         &nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=2 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">4&nbsp;</td>
 <td align=right><font face=verdana size=2 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=2 color="#000000">3&nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">5&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">12&nbsp;</td>
 </tr>
 <td align=left><font face=verdana size=2 color="#000000">Opponents&nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=2 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">3&nbsp;</td>
 <td align=right><font face=verdana size=2 color="#000000">3&nbsp;</td>
 <td align=right><font face=verdana size=2 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=2 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">5&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">8&nbsp;</td>
 </tr>
 </table>
 <p>
@@ -2751,11 +2820,11 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr><td><table>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Overall&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Conference&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Non-Conference&nbsp;</td>
@@ -2767,7 +2836,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Away games&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Neutral site&nbsp;</td>
@@ -2775,7 +2844,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Day games&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Night games&nbsp;</td>
@@ -2787,7 +2856,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">vs Right starter&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">1-Run games&nbsp;</td>
@@ -2820,7 +2889,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">    ... 6-9 runs&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">    ... 10+ runs&nbsp;</td>
@@ -2833,7 +2902,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">     ... 3-5 runs&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">     ... 6-9 runs&nbsp;</td>
@@ -2846,15 +2915,15 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr><td>&nbsp;</td></tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Scored in 1st inning&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Opp. scored in 1st&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Scores first&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Opp. scores first&nbsp;</td>
@@ -2865,7 +2934,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td><table>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">After 2 leading&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">    ... trailing&nbsp;</td>
@@ -2877,7 +2946,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">After 3 leading&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">    ... trailing&nbsp;</td>
@@ -2902,7 +2971,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr><td>&nbsp;</td></tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Hit 0 home runs&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">... 1 home run&nbsp;</td>
@@ -2915,7 +2984,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr><td>&nbsp;</td></tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Opponent 0 home runs&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">     ... 1 home run&nbsp;</td>
@@ -2932,7 +3001,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000"> ... 1 error&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000"> ... 2+ errors&nbsp;</td>
@@ -2949,12 +3018,12 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">      ... 2+ errors&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr><td>&nbsp;</td></tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Out-hit opponent&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">&nbsp;0-0-1&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">&nbsp;1-0-1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Out-hit by opponent&nbsp;</td>
@@ -2993,7 +3062,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
-<td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
+<td align=center><font face=verdana size=2 color="#000000">1-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
@@ -3021,7 +3090,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
-<td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
+<td align=center><font face=verdana size=2 color="#000000">1-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
@@ -3044,8 +3113,8 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=2 color="#000000">W-L&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
-<td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
-<td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
+<td align=center><font face=verdana size=2 color="#000000">1-0&nbsp;</td>
+<td align=center><font face=verdana size=2 color="#000000">1-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 </tr>
 </table>
@@ -3079,7 +3148,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=2 color="#000000">W-L&nbsp;</td>
-<td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
+<td align=center><font face=verdana size=2 color="#000000">1-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
 <td align=center><font face=verdana size=2 color="#000000">0-0&nbsp;</td>
@@ -3087,10 +3156,14 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </table>
 <p><font face=verdana size=2><b>Won-loss streaks:</b></font>
 <table border=0 cellspacing=0 cellpadding=2>
+<tr bgcolor="#ffffff">
+<td align=right><font face=verdana size=2 color="#000000">Current winning streak&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">1&nbsp;</td>
+</tr>
 
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Longest winning streak&nbsp;</td>
-<td align=left><font face=verdana size=2 color="#000000">0&nbsp;</td>
+<td align=left><font face=verdana size=2 color="#000000">1&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=right><font face=verdana size=2 color="#000000">Longest losing streak&nbsp;</td>
@@ -3113,14 +3186,14 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=2 color="#000000">AWAY&nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">100&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">100&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=2 color="#000000">TOTAL&nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">100&nbsp;</td>
-<td align=right><font face=verdana size=2 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">200&nbsp;</td>
+<td align=right><font face=verdana size=2 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=2 color="#000000">100&nbsp;</td>
 </tr>
 </table>
@@ -3147,7 +3220,7 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 
 <br>
 
- record: 0-0
+ record: 1-0
 
 <table border=0 cellspacing=0 cellpadding=2>
 <tr bgcolor="#00008b">
@@ -3175,139 +3248,185 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.50&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">66&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">66&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">16&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">16&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">33&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">16&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">33&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">66&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">33&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">16&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">16&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Francesco PATTI     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 3.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">100&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">60&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">20&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">100&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">20&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">40&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">60&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Tommaso BOCCI       &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.50&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">66&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">33&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">60&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">40&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">33&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">66&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">40&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">60&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Marco BEN MANSOUR   &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.50&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">33&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">33&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">40&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">40&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">66&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">33&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">60&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">40&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI       &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">40&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">40&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">60&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">20&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">20&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 </tr>
 <tr><td>----------</td></tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI     &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">100&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">25&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">Giorgio STIAVETTI   &nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">100&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">100&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Diego DANTI         &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.50&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  .50&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">100&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">75&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">100&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">25&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">75&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
@@ -3335,75 +3454,52 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 </tr>
-<tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Pietro AMADEI       &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">100&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-</tr>
 
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Totals              &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">13&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">24&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 2.00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> 7.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">11.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 4.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 5.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">65&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">25&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">35&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">55&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 8.50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 2.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 5.50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 6.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">63&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">31&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">10&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">10&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">36&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">44&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">15&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Opponents           &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">28&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  .00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 7.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">11.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 3.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 3.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 5.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">63&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">22&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">13&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">31&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 8.50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">11.50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 2.50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 4.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">60&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">17&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">10&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">36&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">50&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">8&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">9&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
 </tr>
 </table>
 
@@ -3437,46 +3533,46 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 <td align=right  bgcolor="#00008b"><font face=verdana size=1 color="#ffffff"><b>+gnd&nbsp;</b></td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA     &nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2.0&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI     &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">5.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  0.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  2.5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  0.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  2.5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  5.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> 12.5&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 17.5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 0.00&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 20.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 1.25&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  0.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  2.5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
-<td align=left><font face=verdana size=1 color="#000000">Edoardo BAGLINI     &nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Tommao LA ROCCA     &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">5.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  0.0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  2.5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  2.5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  2.5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  5.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  3.8&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000"> 10.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 17.5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 2.50&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  0.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 13.8&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  2.5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 27.5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 3.75&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  0.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
 </tr>
 <tr><td>----------</td></tr>
 <tr bgcolor="#ffffff">
@@ -3503,45 +3599,45 @@ PB - Team (0), Opp (1). SBA/ATT - LA ROCCA (3-3), CORBINO (2-2), BAGLINI (1-1).
 
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Totals              &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">8.2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4.2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4.2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">5.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  4.6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  4.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  9.8&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 13.3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 26.5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 4.04&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  0.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  5.4&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  4.3&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  7.5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 11.8&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 23.6&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 4.29&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  0.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  2.1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">Opponents           &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">7.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3.1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">5.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  6.2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  5.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  8.8&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 13.8&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  2.9&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  8.6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  7.1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 10.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 12.1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  1.4&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">  ---&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 25.0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> 5.00&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  1.2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">  0.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 27.1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> 7.14&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  1.4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">  0.7&nbsp;</td>
 </tr>
 </table>
 
@@ -3632,32 +3728,60 @@ Batting (All games)
 <td align=right><font face=verdana size=1 color="#000000"> .077&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">*&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Jan 19, 2025&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">at&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Padule Blu          &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">11&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .167&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Totals&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">13&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">24&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">6&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">11&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">14&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">17&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">26&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000"> .077&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000"> .167&nbsp;</td>
 </tr>
 </table>
 
@@ -3719,29 +3843,54 @@ Pitching (All games)
 <td align=right><font face=verdana size=1 color="#000000">4.29&nbsp;</td>
 </tr>
 <tr bgcolor="#ffffff">
+<td align=left><font face=verdana size=1 color="#000000">*&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Jan 19, 2025&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">at&nbsp;</td>
+<td align=left><font face=verdana size=1 color="#000000">Padule Blu          &nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">10&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">9&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=center><font face=verdana size=1 color="#000000">7-3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.04&nbsp;</td>
+</tr>
+<tr bgcolor="#ffffff">
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">Totals&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
 <td align=left><font face=verdana size=1 color="#000000">&nbsp;&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4.2&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">5&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">8.2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">8&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">7&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">11&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">17&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">23&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">2&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">3&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">12&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">5-5&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">12-8&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
 <td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">0&nbsp;</td>
-<td align=right><font face=verdana size=1 color="#000000">4.29&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">1&nbsp;</td>
+<td align=right><font face=verdana size=1 color="#000000">4.04&nbsp;</td>
 </tr>
 </table>
 
